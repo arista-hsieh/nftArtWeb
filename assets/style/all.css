@@ -13363,6 +13363,10 @@ body {
   border: 1px solid #e9ecef;
 }
 
+.text-gray {
+  color: #e9ecef;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -13405,6 +13409,14 @@ input[type="search"] {
 
 main {
   margin-top: 144px;
+}
+
+.btn-orange {
+  background-color: #E6553B;
+  color: #fff;
+  padding: 12px;
+  width: 100%;
+  border: 1px solid #000;
 }
 
 .w-mode {
@@ -13574,6 +13586,14 @@ main {
 }
 
 .mobile {
+  display: none;
+}
+
+.pc2 {
+  display: block;
+}
+
+.pad {
   display: none;
 }
 
@@ -13765,6 +13785,21 @@ main {
 }
 
 @media (max-width: 992px) {
+  .pc2 {
+    display: none;
+  }
+  .pad {
+    display: block;
+  }
+  .nav-link {
+    text-align: center;
+  }
+  .navbar-collapse {
+    background-color: #fff;
+  }
+  .bd-bottom {
+    border-bottom: 1px solid #000;
+  }
   .bd {
     border-right: none !important;
     border: none !important;
@@ -13818,6 +13853,105 @@ main {
   }
   .logo img {
     width: 85px;
+  }
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.pad {
+  padding: 14px;
+}
+
+.text-darkgray {
+  color: #6c757d;
+}
+
+.width {
+  width: 48%;
+  max-width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .width {
+    width: 40%;
+  }
+}
+
+@media (max-width: 912px) {
+  .width {
+    width: 20%;
+  }
+}
+
+@media (max-width: 540px) {
+  .width {
+    width: 0;
+  }
+}
+
+.box2 {
+  height: 417px;
+}
+
+@media (max-width: 767px) {
+  .box2 {
+    height: 640px;
+  }
+}
+
+.pic {
+  max-height: 270px;
+  max-width: 263px;
+}
+
+.pic img {
+  height: 270px;
+  width: 263px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 8px;
+  background-color: #000;
+}
+
+@media (max-width: 540px) {
+  .pic img {
+    width: 304px;
+    height: 313px;
+  }
+}
+
+.margin-top {
+  margin-top: 88px;
+}
+
+@media (max-width: 540px) {
+  .margin-top {
+    margin-top: 16px;
+  }
+}
+
+.margin-bottom {
+  margin-bottom: 128px;
+}
+
+@media (max-width: 540px) {
+  .margin-bottom {
+    margin-bottom: 40px;
+  }
+}
+
+a {
+  display: inline-block;
+}
+
+@media (max-width: 540px) {
+  .artist > * {
+    padding: 0;
+  }
+  .collect {
+    display: none;
   }
 }
 
