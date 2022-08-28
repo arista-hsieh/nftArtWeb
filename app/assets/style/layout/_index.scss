@@ -8,6 +8,9 @@ body{
 .btn-outline-gray{
   border: 1px solid $gray-200;
 }
+.text-gray{
+  color:$gray-200;
+}
 img{
   max-width: 100%;
   height: auto;
@@ -35,6 +38,14 @@ input[type="search"]{
 }
 main{
   margin-top: 144px;
+}
+
+.btn-orange{
+  background-color: #E6553B;
+  color:#fff;
+  padding: 12px;
+  width: 100%;
+  border: 1px solid #000;
 }
 .w-mode{
 writing-mode: vertical-lr;
@@ -167,6 +178,12 @@ color:white;
   display: block;
 }
 .mobile{
+  display: none;
+}
+.pc2{
+  display: block;
+}
+.pad{
   display: none;
 }
 .bk-slider {
@@ -318,6 +335,21 @@ color:white;
   font-size: 60px;
 }
 @media(max-width:992px){
+  .pc2{
+    display: none;
+  }
+  .pad{
+    display: block;
+  }
+  .nav-link{
+    text-align: center;
+  }
+  .navbar-collapse{
+    background-color: #fff;
+  }
+  .bd-bottom{
+    border-bottom: 1px solid #000;
+  }
   .bd{
     border-right: none !important;
     border:none!important;

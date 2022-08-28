@@ -1,0 +1,67 @@
+.font-24{
+  font-size: 24px;
+}
+.pad{
+  padding: 14px;
+}
+
+.text-darkgray{
+  color:$gray-600;
+}
+.width{
+  width: 48%;
+  max-width: 100%;
+  @media(max-width:1024px){
+    width: 40%;
+  }
+  @media(max-width:912px){
+    width: 20%;
+  }
+  @media(max-width:540px){
+    width: 0;
+  }
+}
+.box2{
+  height: 417px;
+  @media(max-width:767px){
+    height: 640px;
+  }
+}
+.pic{
+  max-height: 270px;
+  max-width: 263px;
+  img{
+    height: 270px;
+    width: 263px;
+    object-fit: cover;
+    padding: 8px;
+    background-color: #000;
+    @media(max-width:540px){
+      width: 304px;
+      height: 313px;
+    }
+  }
+}
+.margin-top{
+  margin-top: 88px;
+  @media(max-width:540px){
+    margin-top: 16px;
+  }
+}
+.margin-bottom{
+  margin-bottom: 128px;
+  @media(max-width:540px){
+    margin-bottom: 40px;
+  }
+}
+a{
+  display: inline-block;
+}
+@media(max-width:540px){
+  .artist >*{
+    padding: 0;
+  }
+  .collect{
+    display: none;
+  }
+}
