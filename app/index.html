@@ -1,0 +1,423 @@
+---
+title: NFT藝術交易平台
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<main class="container">
+  <section class="row row-direction border bd">
+    <h3 class="w-mode col-lg-1 m-0 px-md-3 pt-md-3 pb-md-4 px-xl-5 pt-xl-5 pb-xl-4">Recommend<span class="h2 pt-2">推
+        薦 系 列</span></h3>
+    <img class="ps-0 pe-0 col-lg-7" src="./assets/images/art01.jpg" alt="art01" />
+    <div class="col-lg-4 flex-direction d-flex justify-content-between bg-white">
+      <div>
+        <h4 class="mt-9 mb-2">Kemus Wu</h4>
+        <p class="h3 mb-4">瞳孔:流動的脈絡</p>
+        <p>眼睛，總是吸引著我們的注意力，看、被看，也許眼睛裡有著從另一個世界看我們的世界。</p>
+      </div>
+      <div class="d-flex justify-content-end">
+        <a href="#">
+          <div class="more btn btn-outline-dark mb-4">MORE<span class="triangle"></span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="row row-direction border-start border-bottom border-end bd">
+      <div class="col-lg-3 item flex-direction d-flex justify-content-between border-bottom bg-white">
+        <div>
+          <h4 class="mt-7 mb-2">Joanne</h4>
+          <h2 class="mb-4">海洋波度</h2>
+          <p>海洋的奧秘向我們揭示了深不可測的一面，它的深度——反映了我們的恐懼、同時也吸引著我們。</p>
+        </div>
+        <div class="d-flex justify-content-end">
+          <a href="#">
+            <div class="more btn btn-outline-dark mb-4">MORE<span class="triangle"></span></div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 item px-0 image"><img src="./assets/images/art02.jpg" alt="art"></div>
+      <div class="col-lg-3 item flex-direction d-flex justify-content-between border-bottom bg-white">
+        <div>
+          <h4 class="mt-7 mb-2">Michael</h4>
+          <h2 class="mb-4">我家窗前的鳥</h2>
+          <p>家門前每天都有不同的小鳥，大多數的小鳥都有特殊能力，特殊能力是什麼我就不說了，希望大家能從作品感受到小鳥的快樂。</p>
+        </div>
+        <div class="d-flex justify-content-end">
+          <a href="#">
+            <div class="more btn btn-outline-dark mb-4">MORE<span class="triangle"></span></div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 px-0 item image"><img src="./assets/images/art21.jpg" alt="art"></div>
+  </section>
+  <section>
+    <div class="d-flex justify-content-between">
+      <h3 class="title me-3 mt-9 mb-2 mb-lg-3">Ranking<span class="h5">市價排行榜</span></h3>
+      <a href="#">
+        <p class="more btn btn-outline-gray mt-10 mb-0">MORE<span class="triangle"></span></p>
+      </a>
+    </div>
+    <div class="border-bottom"></div>
+
+
+    <!--pc mode-->
+    <div class="pc">
+      <div class="row mt-7">
+        <div class="col-lg-4 mb-4">
+          <div class="border object">
+            <h2 class="num p-2 border-end border-bottom text-center">1</h2>
+            <img src="./assets/images/art04.jpg" alt="art">
+            <div class="more2 px-7 py-2">more<span class="triangle"></span></div>
+          </div>
+          <h4 class="border-start border-end p-3 m-0 bg-white">散步遇到的女人
+          </h4>
+          <div class="border d-flex justify-content-between bg-white">
+            <h6 class="px-3 py-2 m-0">Zoe Jiang</h6>
+            <h6 class="px-3 py-2 m-0"><i class="fa-brands fa-ethereum ps-2"></i>300</h6>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="border object">
+            <h2 class="num p-2 border-end border-bottom text-center">2</h2>
+            <img src="./assets/images/art05.jpg" alt="art">
+            <div class="more2 px-7 py-2">more<span class="triangle"></span></div>
+          </div>
+          <h4 class="border-start border-end p-3 m-0 bg-white">爆炸頭的母親</h4>
+          <div class="border d-flex justify-content-between bg-white">
+            <h6 class="px-3 py-2 m-0">Yui</h6>
+            <h6 class="px-3 py-2 m-0"><i class="fa-brands fa-ethereum ps-2"></i>300</h6>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="border object">
+            <h2 class="num p-2 border-end border-bottom text-center">3</h2>
+            <img src="./assets/images/art06.jpg" alt="art">
+            <div class="more2 px-7 py-2">more<span class="triangle"></span></div>
+          </div>
+          <h4 class="border-start border-end p-3 m-0 bg-white">夏天的時候</h4>
+          <div class="border d-flex justify-content-between bg-white">
+            <h6 class="px-3 py-2 m-0">Bug Lin</h6>
+            <h6 class="px-3 py-2 m-0"><i class="fa-brands fa-ethereum ps-2"></i>300</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--pc mode end-->
+
+    <!--mobile mode-->
+    <div class="mobile mt-4 row">
+      <div class="col-lg-4 mb-3">
+        <div class="border d-flex bg-white">
+          <div class="px-3 py-4 font">1</div>
+          <div class="image2">
+            <img class="border-start border-end" src="./assets/images/art04.jpg" alt="art">
+            <div class="more3">more</div>
+            <div class="triangle2"></div>
+          </div>
+          <div>
+            <h4 class="wrap py-3 px-3 m-0 border-bottom">散步遇到的女人</h4>
+            <div class="d-flex justify-content-between">
+              <h6 class="px-3 py-2 m-0 bg-white">Zoe Jiang</h6>
+              <h6 class="px-3 py-2 m-0 bg-white"><i class="fa-brands fa-ethereum ps-2"></i>300</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-3">
+        <div class="border d-flex bg-white">
+          <div class="px-3 py-4 font">2</div>
+          <div class="image2">
+            <img class="border-start border-end" src="./assets/images/art05.jpg" alt="art">
+            <div class="more3">more</div>
+            <div class="triangle2"></div>
+          </div>
+          <div>
+            <h4 class="wrap py-3 px-3 m-0 border-bottom">爆炸頭的母親</h4>
+            <div class="d-flex justify-content-between">
+              <h6 class="px-3 py-2 m-0 bg-white">Yui</h6>
+              <h6 class="px-3 py-2 m-0 bg-white"><i class="fa-brands fa-ethereum ps-2"></i>300</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-3">
+        <div class="border d-flex bg-white">
+          <div class="px-3 py-4 font">3</div>
+          <div class="image2">
+            <img class="border-start border-end" src="./assets/images/art06.jpg" alt="art">
+            <div class="more3">more</div>
+            <div class="triangle2"></div>
+          </div>
+          <div>
+            <h4 class="wrap py-3 px-3 m-0 border-bottom">夏天的時候</h4>
+            <div class="d-flex justify-content-between">
+              <h6 class="px-3 py-2 m-0 bg-white">Bug Lin</h6>
+              <h6 class="px-3 py-2 m-0 bg-white"><i class="fa-brands fa-ethereum ps-2"></i>300</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--mobile mode end-->
+
+    <div class="row">
+      <div class="col-lg-4 mb-3">
+        <div class="border d-flex bg-white">
+          <div class="px-3 py-4 font">4</div>
+          <div class="image2">
+            <img class="border-start border-end" src="./assets/images/art13.jpg" alt="art">
+            <div class="more3">more</div>
+            <div class="triangle2"></div>
+          </div>
+          <div>
+            <h4 class="wrap py-3 px-3 m-0 border-bottom">追求者送我的花</h4>
+            <div class="d-flex justify-content-between">
+              <h6 class="px-3 py-2 m-0 bg-white">Michael</h6>
+              <h6 class="px-3 py-2 m-0 bg-white"><i class="fa-brands fa-ethereum ps-2"></i>300</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-3">
+        <div class="border d-flex bg-white">
+          <div class="px-3 py-4 font">5</div>
+          <div class="image2">
+            <img class="border-start border-end" src="./assets/images/art07.jpg" alt="art">
+            <div class="more3">more</div>
+            <div class="triangle2"></div>
+          </div>
+          <div>
+            <h4 class="wrap py-3 px-3 m-0 border-bottom">今天釣到的魚</h4>
+            <div class="d-flex justify-content-between">
+              <h6 class="px-3 py-2 m-0 bg-white">Wei JJ</h6>
+              <h6 class="px-3 py-2 m-0 bg-white"><i class="fa-brands fa-ethereum ps-2"></i>300</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-3">
+        <div class="border d-flex bg-white">
+          <div class="px-3 py-4 font">6</div>
+          <div class="image2">
+            <img class="border-start border-end" src="./assets/images/art08.jpg" alt="art">
+            <div class="more3">more</div>
+            <div class="triangle2"></div>
+          </div>
+          <div>
+            <h4 class="wrap py-3 px-3 m-0 border-bottom">人生中的貓咪們</h4>
+            <div class="d-flex justify-content-between">
+              <h6 class="px-3 py-2 m-0 bg-white">Even Lai</h6>
+              <h6 class="px-3 py-2 m-0 bg-white"><i class="fa-brands fa-ethereum ps-2"></i>300</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="d-flex justify-content-between">
+      <h3 class="title me-3 mt-9 mb-2 mb-lg-3">Artist<span class="h5">熱門藝術家</span></h3>
+      <a href="#">
+        <p class="more btn btn-outline-gray mt-10 mb-0">MORE<span class="triangle"></span></p>
+      </a>
+    </div>
+    <div class="border-bottom"></div>
+
+    <!--swiper-->
+    <div class="bk-slider">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./assets/images/artist01.jpg" alt="artist"></div>
+          <div class="swiper-slide"><img src="./assets/images/artist02.jpg" alt="artist">
+            <p class="font-80 pc">Antony<br>Wu</p>
+            <p class="font-80 mobile">Antony Wu</p>
+            <div class="box pc p-2 text-start">​喜愛大自然，創作題材常見大山、大水、花草與樹木。</div>
+            <div class="more5 btn btn-outline-dark btn-sm">MORE<span class="triangle"></span>
+            </div>
+          </div>
+          <div class="swiper-slide"><img src="./assets/images/artist03.jpg" alt="artist"></div>
+          <div class="swiper-slide"><img src="./assets/images/artist04.jpg" alt="artist"></div>
+          <div class="swiper-slide"><img src="./assets/images/artist05.jpg" alt="artist"></div>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="box mobile my-4 p-4 text-start">​喜愛大自然，創作題材常見大山、大水、花草與樹木。</div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="d-flex justify-content-between">
+      <h3 class="title me-3 mt-9 mb-2 mb-lg-3">Artwork<span class="h5">最新藝術品</span></h3>
+      <a href="#">
+        <p class="more btn btn-outline-gray mt-10 mb-0">MORE<span class="triangle"></span></p>
+      </a>
+    </div>
+    <div class="border-bottom"></div>
+    <div class="grid mt-7">
+      <div class="grid-item">
+        <a href="#">
+          <img class="p-2 p-md-4 bg-white overlay-outer" src="./assets/images/art09.jpg" alt="art">
+          <div class="overlay">
+            <div class="border2">
+              <p class="text-white">
+                <i class="fa-brands fa-ethereum ps-2"></i>
+                300
+              </p>
+            </div>
+            <p class="more4 btn btn-outline-dark text-dark bg-white px-6 py-2">MORE<span class="triangle"></span></p>
+          </div>
+        </a>
+        <h6 class="py-3 bd border-bottom">區塊戀-他的私生活</h6>
+      </div>
+      <div class="grid-item">
+        <a href="#">
+          <img class="p-2 p-md-4 bg-white overlay-outer" src="./assets/images/art10.jpg" alt="art">
+          <div class="overlay">
+            <div class="border2 text-white">唯一想擁有的人，唯一不可以擁有的
+              <p>
+                <i class="fa-brands fa-ethereum ps-2"></i>
+                300
+              </p>
+            </div>
+            <p class="more4 btn btn-outline-dark text-dark bg-white px-6 py-2">MORE<span class="triangle"></span></p>
+          </div>
+        </a>
+        <h6 class="py-3 bd border-bottom">夏娃的醜聞</h6>
+      </div>
+      <div class="grid-item">
+        <a href="#">
+          <img class="p-2 p-md-4 bg-white overlay-outer" src="./assets/images/art02.jpg" alt="art">
+          <div class="overlay">
+            <div class="border2 text-white">
+              <p>
+                <i class="fa-brands fa-ethereum ps-2"></i>
+                300
+              </p>
+            </div>
+            <p class="more4 btn btn-outline-dark text-dark bg-white px-6 py-2">MORE<span class="triangle"></span></p>
+          </div>
+        </a>
+        <h6 class="py-3 bd border-bottom">藍色啤酒海</h6>
+      </div>
+      <div class="grid-item">
+        <a href="#">
+          <img class="p-2 p-md-4 bg-white overlay-outer" src="./assets/images/art11.jpg" alt="art">
+          <div class="overlay">
+            <div class="border2 text-white">
+              <p>
+                <i class="fa-brands fa-ethereum ps-2"></i>
+                300
+              </p>
+            </div>
+            <p class="more4 btn btn-outline-dark text-dark bg-white px-6 py-2">MORE<span class="triangle"></span></p>
+          </div>
+        </a>
+        <h6 class="py-3 bd border-bottom">沒有人愛我</h6>
+      </div>
+      <div class="grid-item">
+        <a href="#">
+          <img class="py-2 p-md-4 bg-white overlay-outer" src="./assets/images/art12.jpg" alt="art">
+          <div class="overlay">
+            <div class="border2 text-white">
+              <p>
+                <i class="fa-brands fa-ethereum ps-2"></i>
+                300
+              </p>
+            </div>
+            <p class="more4 btn btn-outline-dark text-dark bg-white px-6 py-2">MORE<span class="triangle"></span></p>
+          </div>
+        </a>
+        <h6 class="py-3 bd border-bottom">不哭不哭眼淚是珍珠</h6>
+      </div>
+      <div class="grid-item">
+        <a href="#">
+          <img class="p-2 p-md-4 bg-white overlay-outer" src="./assets/images/art03.jpg" alt="art">
+          <div class="overlay">
+            <div class="border2 text-white">
+              <p>
+                <i class="fa-brands fa-ethereum ps-2"></i>
+                300
+              </p>
+            </div>
+            <p class="more4 btn btn-outline-dark text-dark bg-white px-6 py-2">MORE<span class="triangle"></span></p>
+          </div>
+        </a>
+        <h6 class="py-3 bd border-bottom">十分鐘就到</h6>
+      </div>
+      <div class="grid-item">
+        <a href="#">
+          <img class="p-2 p-md-4 bg-white overlay-outer" src="./assets/images/art04.jpg" alt="art">
+          <div class="overlay">
+            <div class="border2 text-white">
+              <p>
+                <i class="fa-brands fa-ethereum ps-2"></i>
+                300
+              </p>
+            </div>
+            <p class="more4 btn btn-outline-dark text-dark bg-white px-6 py-2">MORE<span class="triangle"></span></p>
+          </div>
+        </a>
+        <h6 class="py-3 bd border-bottom">我這樣有美嗎</h6>
+      </div>
+      <div class="grid-item">
+        <a href="#">
+          <img class="p-2 p-md-4 bg-white overlay-outer" src="./assets/images/art27.jpg" alt="art">
+          <div class="overlay">
+            <div class="border2 text-white">
+              <p>
+                <i class="fa-brands fa-ethereum ps-2"></i>
+                300
+              </p>
+            </div>
+            <p class="more4 btn btn-outline-dark text-dark bg-white px-6 py-2">MORE<span class="triangle"></span></p>
+          </div>
+        </a>
+        <h6 class="py-3 bd border-bottom">我真的受傷了</h6>
+      </div>
+    </div>
+  </main>
+    <section>
+      <h3 class="text-center mb-3">Join Us</h3>
+      <h5 class="text-center border3 pb-6">創建並出售你的藝術品</h5>
+      <div class="border-bottom mt-2 mb-9"></div>
+      <div class="container">
+        <ul class="row list-unstyled">
+          <li class="col-md-3 mb-9">
+            <div class="text-center icon">
+              <i class="fa-solid fa-wallet mb-3"></i>
+              <h4>設置你的錢包</h4>
+              <br>
+              <p>設置好您選擇的錢包後<br>點擊右上角的錢包圖標進行連接</p>
+            </div>
+          </li>
+          <li class="col-md-3 mb-9">
+            <div class="text-center icon">
+              <i class="fa-solid fa-pen-ruler mb-3"></i>
+              <h4>創建您的主頁</h4>
+              <br>
+              <p>註冊成為會員，編輯您的資料<br>讓大家了解你</p>
+            </div>
+          </li>
+          <li class="col-md-3 mb-9">
+            <div class="text-center icon">
+              <i class="fa-solid fa-icons mb-3"></i>
+              <h4>添加你的 NFT</h4>
+              <br>
+              <p>上傳你的作品<br>添加標題和描述</p>
+            </div>
+          </li>
+          <li class="col-md-3 mb-9">
+            <div class="text-center icon">
+              <i class="fa-solid fa-tags mb-3"></i>
+              <h4>列出它們出售</h4>
+              <br>
+              <p>選擇出售 NFT 的方式<br>並設定價格，等待有緣人</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
