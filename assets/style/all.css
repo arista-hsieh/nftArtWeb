@@ -13769,11 +13769,11 @@ main {
   right: 40px;
 }
 
-.border3 {
+.bd3 {
   border-bottom: 4px solid #000;
 }
 
-.border4 {
+.bd4 {
   border-top: 4px solid #000;
   font-family: 'Noto Sans TC';
   font-size: 16px;
@@ -13785,6 +13785,9 @@ main {
 }
 
 @media (max-width: 992px) {
+  .bd-top {
+    border-top: 1px solid #000;
+  }
   .pc2 {
     display: none;
   }
