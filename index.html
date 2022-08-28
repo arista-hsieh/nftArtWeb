@@ -1,10 +1,54 @@
----
-title: NFT藝術交易平台
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NFT藝術交易平台</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Paytone+One&family=Squada+One&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    <nav class="navbar p-0 fixed-top border-bottom navbar-expand-lg navbar-light bg-gray">
+      <div class="container d-md-flex">
+        <a class="h1 navbar-brand pt-3 pb-3 pt-xl-5 pb-xl-5 m-0 padding border-end bd logo" href="index.html"><img
+            src="./assets/images/logo.svg" alt="LOGO"></a>
+        <form class="d-flex border-end bd ps-md-4 ps-xl-7 py-3 py-xl-5">
+          <input class="form-control me-md-2" type="search" placeholder="搜尋作品名稱、藝術家名稱" aria-label="Search">
+          <button class="btn btn-outline-gray pe-md-7" type="submit"><i
+              class="text-dark fs-4 fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item px-md-4 px-xl-7 py-3 py-xl-6 bd border-end">
+              <a class="nav-link m-0 h6 p-0 text-dark" aria-current="page" href="#">探索</a>
+            </li>
+            <li class="nav-item border-end bd px-md-4 px-xl-7 py-3 py-xl-6">
+              <a class="nav-link m-0 h6 p-0 text-dark" href="#">市值</a>
+            </li>
+            <li class="nav-item ps-md-5 ps-xl-7 py-3 py-xl-5">
+              <a class="nav-link fs-4 p-0 text-dark" href="#"><i class="fa-solid fa-wallet"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
 <main class="container">
   <section class="row row-direction border bd">
     <h3 class="w-mode col-lg-1 m-0 px-md-3 pt-md-3 pb-md-4 px-xl-5 pt-xl-5 pb-xl-4">Recommend<span class="h2 pt-2">推
@@ -421,3 +465,54 @@ current: index
         </ul>
       </div>
     </section>
+
+
+    <footer class="footer">
+      <div class="border-bottom mb3"></div>
+      <p class="text-center py-3 mt-2 border4">© ART NFT. All Rights Reserved</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        loop: true,
+        centeredSlides: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 2,
+            spaceBetween: 30
+          },
+          // when window width is >= 640px
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40
+          }
+        }
+      });
+
+      var elem = document.querySelector('.grid');
+      var msnry = new Masonry(elem, {
+        // options
+        itemSelector: '.grid-item',
+        gutter: 24,
+        horizontalOrder: true,
+        fitWidth: true,
+      });
+    </script>
+  </body>
+
+</html>
