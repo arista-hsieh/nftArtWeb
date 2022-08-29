@@ -155,6 +155,8 @@ color:white;
   background-color: #000;
   overflow:hidden;
   img{
+    width: 90px;
+    height: 90px;
     object-fit: cover;
     &:hover{
       opacity:0.4;
