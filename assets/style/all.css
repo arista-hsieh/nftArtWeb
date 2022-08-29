@@ -13556,6 +13556,8 @@ main {
 }
 
 .image2 img {
+  width: 90px;
+  height: 90px;
   -o-object-fit: cover;
      object-fit: cover;
 }
