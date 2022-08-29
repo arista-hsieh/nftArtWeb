@@ -13720,6 +13720,10 @@ main {
   border-top: 11px solid transparent;
 }
 
+.grid {
+  margin: 0 auto;
+}
+
 .grid-item {
   max-width: 306px;
   width: 306px;
