@@ -13720,13 +13720,26 @@ main {
   border-top: 11px solid transparent;
 }
 
-.grid {
-  margin: 0 auto;
-}
-
 .grid-item {
+  max-width: 306px;
   width: 306px;
   margin-bottom: 48px;
+}
+
+@media (max-width: 992px) {
+  .grid-item {
+    max-width: 200px;
+    width: 200px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-item {
+    max-width: 140px;
+    width: 140px;
+    margin-bottom: 16px;
+  }
 }
 
 .grid-item a:hover .overlay {
