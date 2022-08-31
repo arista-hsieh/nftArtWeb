@@ -4,28 +4,38 @@
 .pad{
   padding: 14px;
 }
+.padding-top{
+  padding-top: 133px;
+}
 
 .text-darkgray{
   color:$gray-600;
 }
-.width{
-  width: 48%;
-  max-width: 100%;
-  @media(max-width:1024px){
-    width: 40%;
-  }
-  @media(max-width:912px){
-    width: 20%;
-  }
-  @media(max-width:540px){
-    width: 0;
+button.nav-link{
+  &:hover{
+    color:$gray-500;
   }
 }
 .box2{
+  position: relative;
   height: 417px;
   @media(max-width:767px){
     height: 640px;
   }
+}
+.triangle-left{
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-left: 16px solid #000;
+  border-bottom: 16px solid transparent;
+}
+.triangle-right{
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-right: 16px solid #000;
+  border-bottom: 16px solid transparent;
 }
 .pic{
   max-height: 270px;
