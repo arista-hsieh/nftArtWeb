@@ -51,7 +51,7 @@
       </div>
     </nav>
 
-    <main class="bg-gray container">
+    <main class="container">
   <section>
     <div class="row artist">
       <div class="col-md-9">
@@ -95,77 +95,215 @@
     </div>
   </section>
   <section class="mt-9">
-    <div class="d-flex">
-      <h3 class="px-3 px-xxl-7 py-3 border-start border-top border-end">Art Works<span
-          class="h5 ms-3 collect">系列作品</span></h3>
-      <h3 class="text-darkgray ps-3 ps-xxl-7 py-3 border-bottom">Collection<span class="h5 ms-3 collect">收藏品</span></h3>
-      <h3 class="width border-bottom text-gray py-3 collect">Collection</h3>
-    </div>
+    <ul class="nav nav-tabs mb-4" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link text-darkgray active" id="work-tab" data-bs-toggle="tab" data-bs-target="#work" type="button" role="tab" aria-controls="work" aria-selected="true"><h3 class="px-2 px-xxl-7 py-3">Art Works<span class="h5 ms-3 collect">系列作品</span></h3></button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link text-darkgray" id="collect-tab" data-bs-toggle="tab" data-bs-target="#collect" type="button" role="tab" aria-controls="collect" aria-selected="false"><h3 class="px-2 px-xxl-7 py-3">Collection<span class="h5 ms-3 collect">收藏品</span></h3></button>
+      </li>
+    </ul>
 
-    <div class="border box2 bg-white">
-      <div class="row">
-        <div class="col-md-1">
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="work" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div class="border box2 bg-white">
+          <div class="triangle-left"></div>
+          <div class="triangle-right"></div>
+          <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-10">
+              <p class="font-24 mt-7 ms-3 ms-md-0 mb-3">追求者送我的花</p>
+              <div class="row justify-content-between align-items-center">
+                <div class="col-11 col-md-10 mx-3 mx-md-0 mb-7">
+                  我又沒有特別喜歡花，為什麼不給我現金就好，擺在那也不知道要幹嘛，只好畫起來看有沒有人要買，阿不然如果真的喜歡我，把這些都買回去八。
+                </div>
+                <div class="col-md-2">
+                  <div class="pc more btn btn-outline-dark mb-4">MORE<span class="triangle"></span></div>
+                </div>
+              </div>
+              <div>
+                <ul class="d-flex list-unstyled justify-content-md-between justify-content-center">
+                  <li class="pic me-0 me-md-2"><img src="./assets/images/art28.jpg" alt="art"></li>
+                  <li class="pic pc me-2"><img src="./assets/images/art29.jpg" alt="art"></li>
+                  <li class="pic pc me-2"><img src="./assets/images/art14.jpg" alt="art"></li>
+                  <li class="pic pc"><img src="./assets/images/art18.jpg" alt="art"></li>
+                </ul>
+              </div>
+              <div class="mobile d-flex justify-content-center">
+                <a href="#">
+                  <div class="more mobile btn btn-outline-dark mt-6">MORE<span class="triangle"></span></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-1">
+            </div>
+          </div>
         </div>
-        <div class="col-md-10">
-          <p class="font-24 mt-7 ms-3 ms-md-0 mb-3">追求者送我的花</p>
-          <div class="row justify-content-between align-items-center">
-            <div class="col-11 col-md-10 mx-3 mx-md-0 mb-7">
-              我又沒有特別喜歡花，為什麼不給我現金就好，擺在那也不知道要幹嘛，只好畫起來看有沒有人要買，阿不然如果真的喜歡我，把這些都買回去八。
+    
+        <div class="border box2 margin-top margin-bottom bg-white">
+          <div class="triangle-left"></div>
+          <div class="triangle-right"></div>
+          <div class="row">
+            <div class="col-md-1">
             </div>
-            <div class="col-md-2">
-              <div class="pc more btn btn-outline-dark mb-4">MORE<span class="triangle"></span></div>
+            <div class="col-md-10">
+              <p class="font-24 mt-6 ms-3 ms-md-0 mb-3">我家窗前的鳥</p>
+              <div class="row justify-content-between align-items-center">
+                <div class="col-11 col-md-10 mx-3 mx-md-0 mb-7">家門前每天都有不同的小鳥，大多數的小鳥都有特殊能力，特殊能力是什麼我就不說了，希望大家能從作品感受到小鳥的快樂。
+                </div>
+                <div class="col-md-2">
+                  <div class="pc more btn btn-outline-dark mb-4">MORE<span class="triangle"></span></div>
+                </div>
+              </div>
+              <div>
+                <ul class="d-flex list-unstyled justify-content-md-between justify-content-center">
+                  <li class="pic me-0 me-md-2"><img src="./assets/images/art27.jpg" alt="art"></li>
+                  <li class="pic pc me-2"><img src="./assets/images/art20.jpg" alt="art"></li>
+                  <li class="pic pc me-2"><img src="./assets/images/art26.jpg" alt="art"></li>
+                  <li class="pic pc"><img src="./assets/images/art22.jpg" alt="art"></li>
+                </ul>
+              </div>
+              <div class="mobile d-flex justify-content-center">
+                <a href="#">
+                  <div class="more mobile btn btn-outline-dark mt-6">MORE<span class="triangle"></span></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-1">
             </div>
           </div>
-          <div>
-            <ul class="d-flex list-unstyled justify-content-md-between justify-content-center">
-              <li class="pic me-0 me-md-2"><img src="./assets/images/art28.jpg" alt="art"></li>
-              <li class="pic pc me-2"><img src="./assets/images/art29.jpg" alt="art"></li>
-              <li class="pic pc me-2"><img src="./assets/images/art14.jpg" alt="art"></li>
-              <li class="pic pc"><img src="./assets/images/art18.jpg" alt="art"></li>
-            </ul>
-          </div>
-          <div class="mobile d-flex justify-content-center">
+        </div>
+      </div>
+
+
+
+      <div class="tab-pane fade" id="collect" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <div class="grid mt-7">
+          <div class="grid-item">
             <a href="#">
-              <div class="more mobile btn btn-outline-dark mt-6">MORE<span class="triangle"></span></div>
+              <img class="p-2 p-md-3 p-xl-4 bg-white overlay-outer" src="./assets/images/art09.jpg" alt="art">
+              <div class="overlay">
+                <div class="border2">
+                  <p class="text-white">
+                    <i class="fa-brands fa-ethereum ps-2"></i>
+                    300
+                  </p>
+                </div>
+                <p class="more4 btn btn-outline-dark text-dark bg-white px-6 py-2">MORE<span class="triangle"></span></p>
+              </div>
             </a>
+            <h6 class="py-3 bd border-bottom">區塊戀-他的私生活</h6>
           </div>
-        </div>
-        <div class="col-md-1">
+          <div class="grid-item">
+            <a href="#">
+              <img class="p-2 p-md-3 p-lg-4 bg-white overlay-outer" src="./assets/images/art10.jpg" alt="art">
+              <div class="overlay">
+                <div class="border2 text-white">唯一想擁有的人，唯一不可以擁有的
+                  <p>
+                    <i class="fa-brands fa-ethereum ps-2"></i>
+                    300
+                  </p>
+                </div>
+                <p class="more4 btn btn-outline-dark text-dark bg-white px-6 py-2">MORE<span class="triangle"></span></p>
+              </div>
+            </a>
+            <h6 class="py-3 bd border-bottom">夏娃的醜聞</h6>
+          </div>
+          <div class="grid-item">
+            <a href="#">
+              <img class="p-2 p-md-3 p-lg-4 bg-white overlay-outer" src="./assets/images/art02.jpg" alt="art">
+              <div class="overlay">
+                <div class="border2 text-white">
+                  <p>
+                    <i class="fa-brands fa-ethereum ps-2"></i>
+                    300
+                  </p>
+                </div>
+                <p class="more4 btn btn-outline-dark text-dark bg-white px-6 py-2">MORE<span class="triangle"></span></p>
+              </div>
+            </a>
+            <h6 class="py-3 bd border-bottom">藍色啤酒海</h6>
+          </div>
+          <div class="grid-item">
+            <a href="#">
+              <img class="p-2 p-md-3 p-lg-4 bg-white overlay-outer" src="./assets/images/art11.jpg" alt="art">
+              <div class="overlay">
+                <div class="border2 text-white">
+                  <p>
+                    <i class="fa-brands fa-ethereum ps-2"></i>
+                    300
+                  </p>
+                </div>
+                <p class="more4 btn btn-outline-dark text-dark bg-white px-6 py-2">MORE<span class="triangle"></span></p>
+              </div>
+            </a>
+            <h6 class="py-3 bd border-bottom">沒有人愛我</h6>
+          </div>
+          <div class="grid-item">
+            <a href="#">
+              <img class="py-2 p-md-3 p-lg-4 bg-white overlay-outer" src="./assets/images/art12.jpg" alt="art">
+              <div class="overlay">
+                <div class="border2 text-white">
+                  <p>
+                    <i class="fa-brands fa-ethereum ps-2"></i>
+                    300
+                  </p>
+                </div>
+                <p class="more4 btn btn-outline-dark text-dark bg-white px-6 py-2">MORE<span class="triangle"></span></p>
+              </div>
+            </a>
+            <h6 class="py-3 bd border-bottom">不哭不哭眼淚是珍珠</h6>
+          </div>
+          <div class="grid-item">
+            <a href="#">
+              <img class="p-2 p-md-3 p-lg-4 bg-white overlay-outer" src="./assets/images/art03.jpg" alt="art">
+              <div class="overlay">
+                <div class="border2 text-white">
+                  <p>
+                    <i class="fa-brands fa-ethereum ps-2"></i>
+                    300
+                  </p>
+                </div>
+                <p class="more4 btn btn-outline-dark text-dark bg-white px-6 py-2">MORE<span class="triangle"></span></p>
+              </div>
+            </a>
+            <h6 class="py-3 bd border-bottom">十分鐘就到</h6>
+          </div>
+          <div class="grid-item">
+            <a href="#">
+              <img class="p-2 p-md-3 p-lg-4 bg-white overlay-outer" src="./assets/images/art04.jpg" alt="art">
+              <div class="overlay">
+                <div class="border2 text-white">
+                  <p>
+                    <i class="fa-brands fa-ethereum ps-2"></i>
+                    300
+                  </p>
+                </div>
+                <p class="more4 btn btn-outline-dark text-dark bg-white px-6 py-2">MORE<span class="triangle"></span></p>
+              </div>
+            </a>
+            <h6 class="py-3 bd border-bottom">我這樣有美嗎</h6>
+          </div>
+          <div class="grid-item">
+            <a href="#">
+              <img class="p-2 p-md-3 p-lg-4 bg-white overlay-outer" src="./assets/images/art27.jpg" alt="art">
+              <div class="overlay">
+                <div class="border2 text-white">
+                  <p>
+                    <i class="fa-brands fa-ethereum ps-2"></i>
+                    300
+                  </p>
+                </div>
+                <p class="more4 btn btn-outline-dark text-dark bg-white px-6 py-2">MORE<span class="triangle"></span></p>
+              </div>
+            </a>
+            <h6 class="py-3 bd border-bottom">我真的受傷了</h6>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="border box2 margin-top margin-bottom bg-white">
-      <div class="row">
-        <div class="col-md-1">
-        </div>
-        <div class="col-md-10">
-          <p class="font-24 mt-7 ms-3 ms-md-0 mb-3">我家窗前的鳥</p>
-          <div class="row justify-content-between align-items-center">
-            <div class="col-11 col-md-10 mx-3 mx-md-0 mb-7">家門前每天都有不同的小鳥，大多數的小鳥都有特殊能力，特殊能力是什麼我就不說了，希望大家能從作品感受到小鳥的快樂。
-            </div>
-            <div class="col-md-2">
-              <div class="pc more btn btn-outline-dark mb-4">MORE<span class="triangle"></span></div>
-            </div>
-          </div>
-          <div>
-            <ul class="d-flex list-unstyled justify-content-md-between justify-content-center">
-              <li class="pic me-0 me-md-2"><img src="./assets/images/art27.jpg" alt="art"></li>
-              <li class="pic pc me-2"><img src="./assets/images/art20.jpg" alt="art"></li>
-              <li class="pic pc me-2"><img src="./assets/images/art26.jpg" alt="art"></li>
-              <li class="pic pc"><img src="./assets/images/art22.jpg" alt="art"></li>
-            </ul>
-          </div>
-          <div class="mobile d-flex justify-content-center">
-            <a href="#">
-              <div class="more mobile btn btn-outline-dark mt-6">MORE<span class="triangle"></span></div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-1">
-        </div>
-      </div>
-    </div>
   </section>
 </main>
 
