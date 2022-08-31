@@ -13358,6 +13358,7 @@ fieldset:disabled .btn {
 body {
   font-family: 'Squada One','Noto Sans TC', cursive, sans-serif;
   background-color: #e9ecef;
+  overflow-x: hidden;
 }
 
 .bg-gray {
