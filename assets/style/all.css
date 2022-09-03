@@ -13515,9 +13515,29 @@ main {
   background-color: #000;
 }
 
+@media (max-width: 1024px) {
+  .object {
+    height: 300px;
+  }
+}
+
+@media (max-width: 992px) {
+  .object {
+    height: 374px;
+  }
+}
+
 .object img {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media (max-width: 992px) {
+  .object img {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+  }
 }
 
 .object img:hover {
