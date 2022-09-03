@@ -13758,7 +13758,7 @@ main {
   display: block;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   .grid-item a:hover .overlay {
     display: none;
   }
