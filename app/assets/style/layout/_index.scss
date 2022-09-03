@@ -118,8 +118,17 @@ color:white;
   overflow:hidden;
   position: relative;
   background-color: #000;
+  @media(max-width:1024px){
+    height: 300px;
+  }
+  @media(max-width:992px){
+    height: 374px;
+  }
   img{
     object-fit: cover;
+    @media(max-width:992px){
+      transform:scale(1.2)
+    }
     &:hover{
       opacity:0.4;
       + .more2{
