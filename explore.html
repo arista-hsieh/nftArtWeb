@@ -44,7 +44,9 @@
               <a class="nav-link fs-4 p-0 text-dark" href="#"><i class="fa-solid fa-wallet"></i></a>
             </li>
             <li class="nav-item pad ps-md-0 ps-xl-7 py-3 py-xl-5">
-              <a class="nav-link fs-4 p-0" href="#"><div class="btn btn-orange text-white">連結錢包</div></a>
+              <a class="nav-link fs-4 p-0" href="#">
+                <div class="btn btn-orange text-white">連結錢包</div>
+              </a>
             </li>
           </ul>
         </div>
@@ -311,8 +313,11 @@
       <div class="border-bottom mb3"></div>
       <p class="text-center py-3 mt-2 bd4">© ART NFT. All Rights Reserved</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
     <script>
@@ -351,6 +356,14 @@
         gutter: 24,
         horizontalOrder: true,
         fitWidth: true,
+      });
+
+      var $grid = $('.grid').masonry({
+        // options...
+      });
+      // layout Masonry after each image loads
+      $grid.imagesLoaded().progress(function () {
+        $grid.masonry('layout');
       });
     </script>
   </body>
