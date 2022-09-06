@@ -13681,6 +13681,7 @@ main {
 }
 
 .swiper-pagination-bullet {
+  border-radius: 0;
   width: 8px;
   height: 8px;
   background-color: #000;
